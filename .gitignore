@@ -1,0 +1,155 @@
+# ================================================
+# Flutter-related files to ignore
+# ================================================
+
+# Flutter/Dart
+build/
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+pubspec.lock
+
+# iOS/macOS build artifacts
+ios/Flutter/.last_build_id
+ios/Pods
+ios/.symlinks
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+macos/Flutter/ephemeral/
+macos/Flutter/Flutter.podspec
+macos/.symlinks
+macos/Pods/
+macos/.flutter-plugins
+macos/.flutter-plugins-dependencies
+
+# Android build artifacts
+android/.gradle
+android/app/build/
+.android/
+
+# Web build artifacts
+web/
+
+# IDE settings
+.idea/
+*.iml
+.vscode/
+
+# Local development logs
+*.log
+
+# ================================================
+# Python-related files to ignore
+# ================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environments
+env/
+.venv/
+ENV/
+venv/
+env.bak/
+venv.bak/
+
+# Poetry
+.poetry/
+
+# Pyenv
+.python-version
+
+# ================================================
+# AWS SAM-related files to ignore
+# ================================================
+
+# SAM Build Artifacts
+.aws-sam/
+.aws-sam/build/
+.aws-sam/cache/
+
+# SAM credentials and environment files
+.env
+.env.*  # Optional: if you have environment-specific files like .env.prod
+
+# AWS CLI specific
+.aws/
+
+# ================================================
+# General files to ignore (common across all projects)
+# ================================================
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Compiled source files
+*.class
+*.dll
+*.exe
+*.o
+*.out
+*.pyc
+*.pyo
+
+# Backup files
+*.bak
+*.swp
+
+# IDE or Editor settings (like JetBrains, VS Code)
+.idea/
+.vscode/
+*.iml
+
+# Temporary files created by the system or development tools
+tmp/
+temp/
+*.tmp
+*.temp
+
+# ================================================
+
+# Explicación de las secciones:
+# Flutter-related: Excluye todos los archivos y carpetas generados por Flutter durante el desarrollo y la compilación, incluyendo los artefactos de iOS, Android y web.
+# Python-related: Ignora archivos de caché, compilados, entornos virtuales (virtualenv), archivos de instalación, y otros relacionados con Python.
+# AWS SAM-related: Excluye los archivos generados por AWS SAM durante el proceso de build y despliegue. También excluye archivos de configuración y credenciales como .env.
+# General files: Incluye ignorar archivos como logs, temporales, y generados por el sistema operativo o editores.
